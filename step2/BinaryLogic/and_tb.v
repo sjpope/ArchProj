@@ -2,7 +2,7 @@ module and_tb;
     reg [3:0] a, b;
     wire [3:0] result;
 
-    and and_instance(.a(a), .b(b), .result(result));
+    and_test and_instance(a, b, result);
 
     initial begin
         $dumpfile("and.vcd");

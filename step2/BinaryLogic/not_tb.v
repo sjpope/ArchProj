@@ -6,13 +6,13 @@ module not_tb;
 
     initial begin
         $dumpfile("not.vcd");
-        $dumpfile(0, not_tb)
+        $dumpvars(0, not_tb);
 
         a = 4'b1001;
         #10;
         $display("NOT Test 1: a=%b, result=%b", a, result);
 
-        a = 4'b1001;
+        a = 4'b0110;
         #10;
         $display("NOT Test 2: a=%b, result=%b", a, result);
 
