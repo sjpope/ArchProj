@@ -5,10 +5,17 @@ module not_tb;
     not_test not_instance(.a(a), .result(result));
 
     initial begin
+        $dumpfile("not.vcd");
+        $dumpfile(0, not_tb)
+
         a = 4'b1001;
         #10;
-        $display("NOT Test: a=%b, result=%b", a, result);
-        
+        $display("NOT Test 1: a=%b, result=%b", a, result);
+
+        a = 4'b1001;
+        #10;
+        $display("NOT Test 2: a=%b, result=%b", a, result);
+
         $finish;
     end
 endmodule

@@ -5,10 +5,18 @@ module nor_tb;
     nor_test nor_instance(.a(a), .b(b), .result(result));
 
     initial begin
+        $dumpfile("nor.vcd");
+        $dumpvars(0, nor_tb);
+
         a = 4'b0110; b = 4'b1001;
         #10;
-        $display("NOR Test: a=%b, b=%b, result=%b", a, b, result);
-        
+        $display("NOR Test 1: a=%b, b=%b, result=%b", a, b, result);
+
+        a = 4'b0000; b = 4'b0000;
+        #10;
+        $display("NOR Test 2: a=%b, b=%b, result=%b", a, b, result);
+
         $finish;
     end
 endmodule
+

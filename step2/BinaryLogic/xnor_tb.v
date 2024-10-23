@@ -5,9 +5,16 @@ module xnor_tb;
     xnor_test xnor_instance(.a(a), .b(b), .result(result));
 
     initial begin
+        $dumpfile("xnor.vcd");
+        $dumpvars(0, xnor_tb);          
+
         a = 4'b1010; b = 4'b1010;
         #10;
-        $display("XNOR Test: a=%b, b=%b, result=%b", a, b, result);
+        $display("XNOR Test 1: a=%b, b=%b, result=%b", a, b, result);
+
+        a = 4'b0111; b = 4'b1001;
+        #10;
+        $display("XNOR Test 2: a=%b, b=%b, result=%b", a, b, result);
         
         $finish;
     end

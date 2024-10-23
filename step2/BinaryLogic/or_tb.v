@@ -5,10 +5,18 @@ module or_tb;
     or_test or_instance(.a(a), .b(b), .result(result));
 
     initial begin
+        $dumpfile("or.vcd");
+        $dumpvars(0, or_tb);
+
         a = 4'b1001; b = 4'b0101;
         #10;
-        $display("OR Test: a=%b, b=%b, result=%b", a, b, result);
-        
+        $display("OR Test 1: a=%b, b=%b, result=%b", a, b, result);
+
+        a = 4'b0011; b = 4'b1100;
+        #10;
+        $display("OR Test 2: a=%b, b=%b, result=%b", a, b, result);
+
         $finish;
     end
 endmodule
+
