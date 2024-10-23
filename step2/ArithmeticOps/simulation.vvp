@@ -1,0 +1,74 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1110-g18392a46)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\Users\sampo\OneDrive\DOCUME~1\TXST\COMPAR~1\ARCH-2\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\Users\sampo\OneDrive\DOCUME~1\TXST\COMPAR~1\ARCH-2\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\Users\sampo\OneDrive\DOCUME~1\TXST\COMPAR~1\ARCH-2\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\Users\sampo\OneDrive\DOCUME~1\TXST\COMPAR~1\ARCH-2\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\Users\sampo\OneDrive\DOCUME~1\TXST\COMPAR~1\ARCH-2\iverilog\lib\ivl\va_math.vpi";
+S_0000021cb75276e0 .scope module, "add_tb" "add_tb" 2 1;
+ .timescale 0 0;
+v0000021cb7533370_0 .var "a", 3 0;
+v0000021cb7533a50_0 .var "b", 3 0;
+v0000021cb7532dd0_0 .var "cin", 0 0;
+v0000021cb75339b0_0 .net "cout", 0 0, L_0000021cb7533730;  1 drivers
+v0000021cb7532fb0_0 .net "sum", 3 0, L_0000021cb7533af0;  1 drivers
+S_0000021cb75360c0 .scope module, "add_instance" "add" 2 8, 3 1 0, S_0000021cb75276e0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "a";
+    .port_info 1 /INPUT 4 "b";
+    .port_info 2 /INPUT 1 "cin";
+    .port_info 3 /OUTPUT 4 "sum";
+    .port_info 4 /OUTPUT 1 "cout";
+L_0000021cb757f890 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0000021cb7534ce0_0 .net *"_ivl_10", 0 0, L_0000021cb757f890;  1 drivers
+v0000021cb7503890_0 .net *"_ivl_11", 4 0, L_0000021cb7533550;  1 drivers
+v0000021cb7527870_0 .net *"_ivl_13", 4 0, L_0000021cb7533410;  1 drivers
+L_0000021cb757f8d8 .functor BUFT 1, C4<0000>, C4<0>, C4<0>, C4<0>;
+v0000021cb7536250_0 .net *"_ivl_16", 3 0, L_0000021cb757f8d8;  1 drivers
+v0000021cb75362f0_0 .net *"_ivl_17", 4 0, L_0000021cb7532f10;  1 drivers
+v0000021cb7536390_0 .net *"_ivl_3", 4 0, L_0000021cb7532d30;  1 drivers
+L_0000021cb757f848 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0000021cb7536430_0 .net *"_ivl_6", 0 0, L_0000021cb757f848;  1 drivers
+v0000021cb75364d0_0 .net *"_ivl_7", 4 0, L_0000021cb7532e70;  1 drivers
+v0000021cb7528c50_0 .net "a", 3 0, v0000021cb7533370_0;  1 drivers
+v0000021cb7528cf0_0 .net "b", 3 0, v0000021cb7533a50_0;  1 drivers
+v0000021cb7528d90_0 .net "cin", 0 0, v0000021cb7532dd0_0;  1 drivers
+v0000021cb7533690_0 .net "cout", 0 0, L_0000021cb7533730;  alias, 1 drivers
+v0000021cb75332d0_0 .net "sum", 3 0, L_0000021cb7533af0;  alias, 1 drivers
+L_0000021cb7533730 .part L_0000021cb7532f10, 4, 1;
+L_0000021cb7533af0 .part L_0000021cb7532f10, 0, 4;
+L_0000021cb7532d30 .concat [ 4 1 0 0], v0000021cb7533370_0, L_0000021cb757f848;
+L_0000021cb7532e70 .concat [ 4 1 0 0], v0000021cb7533a50_0, L_0000021cb757f890;
+L_0000021cb7533550 .arith/sum 5, L_0000021cb7532d30, L_0000021cb7532e70;
+L_0000021cb7533410 .concat [ 1 4 0 0], v0000021cb7532dd0_0, L_0000021cb757f8d8;
+L_0000021cb7532f10 .arith/sum 5, L_0000021cb7533550, L_0000021cb7533410;
+    .scope S_0000021cb75276e0;
+T_0 ;
+    %vpi_call 2 11 "$display", "Test Start - Addition" {0 0 0};
+    %pushi/vec4 6, 0, 4;
+    %store/vec4 v0000021cb7533370_0, 0, 4;
+    %pushi/vec4 3, 0, 4;
+    %store/vec4 v0000021cb7533a50_0, 0, 4;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000021cb7532dd0_0, 0, 1;
+    %delay 10, 0;
+    %vpi_call 2 13 "$display", "a: %b, b: %b, cin: %b -> sum: %b, cout: %b", v0000021cb7533370_0, v0000021cb7533a50_0, v0000021cb7532dd0_0, v0000021cb7532fb0_0, v0000021cb75339b0_0 {0 0 0};
+    %pushi/vec4 15, 0, 4;
+    %store/vec4 v0000021cb7533370_0, 0, 4;
+    %pushi/vec4 1, 0, 4;
+    %store/vec4 v0000021cb7533a50_0, 0, 4;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000021cb7532dd0_0, 0, 1;
+    %delay 10, 0;
+    %vpi_call 2 16 "$display", "a: %b, b: %b, cin: %b -> sum: %b, cout: %b", v0000021cb7533370_0, v0000021cb7533a50_0, v0000021cb7532dd0_0, v0000021cb7532fb0_0, v0000021cb75339b0_0 {0 0 0};
+    %vpi_call 2 18 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "add_tb.v";
+    "add.v";
