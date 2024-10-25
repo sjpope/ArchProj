@@ -1,3 +1,5 @@
+include "not.v";
+
 module not_tb;
     reg [3:0] a;
     wire [3:0] result;
@@ -7,7 +9,7 @@ module not_tb;
     initial begin
         $dumpfile("waveform.vcd");
         $dumpvars(0, not_tb);
-
+        $display("\n\nTesting AND Gate:\n");
         a = 4'b1001;
         #10;
         $display("NOT Test 1: a=%b, result=%b", a, result);

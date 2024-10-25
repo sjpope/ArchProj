@@ -7,7 +7,7 @@ module xnor_tb;
     initial begin
         $dumpfile("waveform.vcd");
         $dumpvars(0, xnor_tb);          
-
+        $display("\n\nTesting AND Gate:\n");
         a = 4'b1010; b = 4'b1010;
         #10;
         $display("XNOR Test 1: a=%b, b=%b, result=%b", a, b, result);
