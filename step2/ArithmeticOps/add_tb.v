@@ -7,7 +7,7 @@ module add_tb;
     add add_instance(.a(a), .b(b), .cin(cin), .sum(sum), .cout(cout));
 
     initial begin
-        $dumpfile("add.vcd");
+        $dumpfile("waveform.vcd");
         $dumpvars(0, add_tb);  
 
         $display("Test Start - Addition");

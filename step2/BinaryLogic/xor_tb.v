@@ -5,7 +5,7 @@ module xor_tb;
     xor_test xor_instance(.a(a), .b(b), .result(result));
 
     initial begin
-        $dumpfile("xor.vcd");
+        $dumpfile("waveform.vcd");
         $dumpvars(0, xor_tb);
 
         a = 4'b1101; b = 4'b0111;

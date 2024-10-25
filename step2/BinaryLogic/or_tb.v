@@ -5,7 +5,7 @@ module or_tb;
     or_test or_instance(.a(a), .b(b), .result(result));
 
     initial begin
-        $dumpfile("or.vcd");
+        $dumpfile("waveform.vcd");
         $dumpvars(0, or_tb);
 
         a = 4'b1001; b = 4'b0101;

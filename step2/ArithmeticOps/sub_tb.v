@@ -6,7 +6,7 @@ module sub_tb;
     sub sub_instance(.a(a), .b(b), .diff(diff), .borrow(borrow));
 
     initial begin
-        $dumpfile("sub.vcd");
+        $dumpfile("waveform.vcd");
         $dumpvars(0, sub_tb);  
 
         $display("Test Start - Subtraction");

@@ -5,7 +5,7 @@ module not_tb;
     not_test not_instance(.a(a), .result(result));
 
     initial begin
-        $dumpfile("not.vcd");
+        $dumpfile("waveform.vcd");
         $dumpvars(0, not_tb);
 
         a = 4'b1001;

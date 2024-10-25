@@ -5,7 +5,7 @@ module xnor_tb;
     xnor_test xnor_instance(.a(a), .b(b), .result(result));
 
     initial begin
-        $dumpfile("xnor.vcd");
+        $dumpfile("waveform.vcd");
         $dumpvars(0, xnor_tb);          
 
         a = 4'b1010; b = 4'b1010;

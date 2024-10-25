@@ -5,7 +5,7 @@ module shifter_tb;
     shifter shifter_instance(.a(a), .b(b), .left_shift_result(left_shift_result), .right_shift_result(right_shift_result));
 
     initial begin
-        $dumpfile("shifter.vcd");
+        $dumpfile("waveform.vcd");
         $dumpvars(0, shifter_tb);
 
         a = 4'b1101; b = 4'b0010; // Shift by 2 bits

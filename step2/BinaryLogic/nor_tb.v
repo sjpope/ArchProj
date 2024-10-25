@@ -5,7 +5,7 @@ module nor_tb;
     nor_test nor_instance(.a(a), .b(b), .result(result));
 
     initial begin
-        $dumpfile("nor.vcd");
+        $dumpfile("waveform.vcd");
         $dumpvars(0, nor_tb);
 
         a = 4'b0110; b = 4'b1001;

@@ -5,7 +5,7 @@ module mul_tb;
     mul mul_instance(.a(a), .b(b), .product(product));
 
     initial begin
-        $dumpfile("mul.vcd");
+        $dumpfile("waveform.vcd");
         $dumpvars(0, mul_tb);  
 
         $display("Test Start - Multiplication");

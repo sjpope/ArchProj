@@ -1,11 +1,13 @@
+include "nand.v";
+
 module nand_tb;
     reg [3:0] a, b;
     wire [3:0] result;
 
-    nand_test nand_instance(.a(a), .b(b), .result(result));
+    nand nand_instance(.a(a), .b(b), .result(result));
 
     initial begin
-        $dumpfile("nand.vcd");
+        $dumpfile("waveform.vcd");
         $dumpvars(0, nand_tb);
 
         a = 4'b1010; b = 4'b1100;

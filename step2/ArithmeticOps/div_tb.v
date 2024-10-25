@@ -6,7 +6,7 @@ module div_tb;
 
     initial begin
 
-        $dumpfile("div.vcd");
+        $dumpfile("waveform.vcd");
         $dumpvars(0, div_tb);  
 
         $display("Test Start - Division");
