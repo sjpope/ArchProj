@@ -1,0 +1,10 @@
+
+vvp alu_tb.vvp              
+Run Simulation, Show Console Output
+
+
+gtkwave alu_waveform.vcd
+
+iverilog -o alu_tb.vvp alu_tb.v alu.v step2\BinaryLogic\and.v step2\BinaryLogic\or.v step2\BinaryLogic\not.v step2\BinaryLogic\xor.v step2\BinaryLogic\nand.v step2\BinaryLogic\nor.v step2\BinaryLogic\xnor.v step2\BinaryLogic\shifter.v step2\ArithmeticOps\add.v step2\ArithmeticOps\sub.v step2\ArithmeticOps\mul.v step2\ArithmeticOps\div.v step1\shifter.v step1\nor.v step1\nand.v step1\not.v
+
+vvp alu_tb.vvp 
