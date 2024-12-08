@@ -1,0 +1,93 @@
+PS C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator>  dotnet run -- 32 1024 128 1 LRU addy.txt
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimul
+ator\Program.cs(419,24): warning CS8625: Cannot convert null literal to non-nullable  
+reference type. [C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchPr 
+oj\XC3\CacheSimulator\CacheSimulator.csproj]
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimul 
+ator\Program.cs(532,28): warning CS8600: Converting null literal or possible null val 
+ue to non-nullable type. [C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\rep 
+os\ArchProj\XC3\CacheSimulator\CacheSimulator.csproj]
+x0       x0      M
+x0       x0      H
+x2       x0      M
+x2       x0      H
+x3F      x0      M
+x40      x0      M
+x6       x0      M
+x6       x0      H
+PS C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator> dotnet build
+MSBuild version 17.9.8+b34f75857 for .NET
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimul
+ator\Program.cs(419,24): warning CS8625: Cannot convert null literal to non-nullable  
+reference type. [C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchPr 
+oj\XC3\CacheSimulator\CacheSimulator.csproj]
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimul 
+ator\Program.cs(532,28): warning CS8600: Converting null literal or possible null val 
+ue to non-nullable type. [C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\rep 
+os\ArchProj\XC3\CacheSimulator\CacheSimulator.csproj]
+  CacheSimulator -> C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\Arc
+  hProj\XC3\CacheSimulator\bin\Debug\net8.0\CacheSimulator.dll
+
+Build succeeded.
+
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimul 
+ator\Program.cs(419,24): warning CS8625: Cannot convert null literal to non-nullable  
+reference type. [C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchPr 
+oj\XC3\CacheSimulator\CacheSimulator.csproj]
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimul 
+ator\Program.cs(532,28): warning CS8600: Converting null literal or possible null val 
+ue to non-nullable type. [C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\rep 
+os\ArchProj\XC3\CacheSimulator\CacheSimulator.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.51
+PS C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator> dotnet run -- 32 1024 128 1 LRU addy.txt
+index    tag     H/M
+x0       x0      M
+x0       x0      H
+x2       x0      M
+x2       x0      H
+x3F      x0      M
+x40      x0      M
+x6       x0      M
+x6       x0      H
+PS C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator> dotnet run -- 32 1024 64 1 LRU addy.txt
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimul
+ator\Program.cs(419,24): warning CS8625: Cannot convert null literal to non-nullable  
+reference type. [C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchPr 
+oj\XC3\CacheSimulator\CacheSimulator.csproj]
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimul 
+ator\Program.cs(532,28): warning CS8600: Converting null literal or possible null val 
+ue to non-nullable type. [C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\rep 
+os\ArchProj\XC3\CacheSimulator\CacheSimulator.csproj]
+index    tag     H/M
+x0       x0      M
+x0       x0      H
+x2       x0      M
+x2       x0      H
+x3F      x0      M
+x0       x1      M
+x6       x0      M
+x6       x0      H
+PS C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator> dotnet run -- 32 1024 32 1 LRU addy.txt
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimul
+ator\Program.cs(419,24): warning CS8625: Cannot convert null literal to non-nullable  
+reference type. [C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchPr 
+oj\XC3\CacheSimulator\CacheSimulator.csproj]
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimul 
+ator\Program.cs(532,28): warning CS8600: Converting null literal or possible null val 
+ue to non-nullable type. [C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\rep 
+os\ArchProj\XC3\CacheSimulator\CacheSimulator.csproj]
+index    tag     H/M
+x0       x0      M
+x0       x0      H
+x2       x0      M
+x2       x0      H
+x1F      x1      M
+x0       x2      M
+x6       x0      M
+x6       x0      H
+PS C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator>

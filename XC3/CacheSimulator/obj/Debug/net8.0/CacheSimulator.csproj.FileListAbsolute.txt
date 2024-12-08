@@ -1,0 +1,14 @@
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator\bin\Debug\net8.0\CacheSimulator.exe
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator\bin\Debug\net8.0\CacheSimulator.deps.json
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator\bin\Debug\net8.0\CacheSimulator.runtimeconfig.json
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator\bin\Debug\net8.0\CacheSimulator.dll
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator\bin\Debug\net8.0\CacheSimulator.pdb
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator\obj\Debug\net8.0\CacheSimulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator\obj\Debug\net8.0\CacheSimulator.AssemblyInfoInputs.cache
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator\obj\Debug\net8.0\CacheSimulator.AssemblyInfo.cs
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator\obj\Debug\net8.0\CacheSimulator.csproj.CoreCompileInputs.cache
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator\obj\Debug\net8.0\CacheSimulator.dll
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator\obj\Debug\net8.0\refint\CacheSimulator.dll
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator\obj\Debug\net8.0\CacheSimulator.pdb
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator\obj\Debug\net8.0\CacheSimulator.genruntimeconfig.cache
+C:\Users\sampo\OneDrive\Documents\TXST\Comp Arch\ARCH-2\repos\ArchProj\XC3\CacheSimulator\obj\Debug\net8.0\ref\CacheSimulator.dll
