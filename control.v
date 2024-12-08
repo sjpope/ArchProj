@@ -4,8 +4,7 @@ module control (
     output reg [13:0] control_signals
 );
 
-// Define control signals as per your design
-// For simplicity, we'll assume each operation corresponds to a control signal
+
 always @(*) begin
     control_signals = 14'b0;
     case (opcode)

@@ -28,11 +28,10 @@ initial begin
     B = 4'b0000;
     opcode = 4'b0000;
 
-    // Enhanced monitoring
     $monitor("\nTime: %0t | Test: %s | Opcode: %h | A: %h | B: %h | Result: %h | Carry Out: %b | Remainder: %h",
              $time, "Initialization", opcode, A, B, result, carry_out, remainder);
     
-// Testing Single-Bit NOT
+    // Testing Single-Bit NOT
     $display("\n===== Testing Single-Bit NOT Operations =====");
     #10 opcode = 4'b1101; A = 4'b0001;
     #10 $display("NOT Test 1: ~1 = %b", result[0]);

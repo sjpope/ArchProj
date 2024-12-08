@@ -59,7 +59,7 @@ always @(*) begin
         4'b1101: result = {7'b0, not_result};  // NOT operation (single-bit)
         4'b1110: result = {7'b0, nand_result}; // NAND operation (single-bit)
         4'b1111: result = {7'b0, nor_result};  // NOR operation (single-bit)
- 4'b1011: result = {4'b0000, shift_result}; // Left shift
+        4'b1011: result = {4'b0000, shift_result}; // Left shift
         4'b1100: result = {4'b0000, shift_result}; // Right shift
 
         
