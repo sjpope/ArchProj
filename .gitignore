@@ -1,0 +1,11 @@
+XC3/CacheSimulator/obj/Debug/net8.0/CacheSimulator.AssemblyInfo.cs
+XC3/CacheSimulator/obj/Debug/net8.0/CacheSimulator.AssemblyInfoInputs.cache
+XC3/CacheSimulator/uzt XC3 v2.zip
+
+*/obj
+obj/
+
+
+*/bin
+*.zip
+
