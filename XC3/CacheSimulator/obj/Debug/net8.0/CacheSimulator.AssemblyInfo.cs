@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CacheSimulator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4918d660280f739e4dfff4fdd0ca8297eef40c13")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0f2873d683f8ce619f2cb0cae856b1b168be444")]
 [assembly: System.Reflection.AssemblyProductAttribute("CacheSimulator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CacheSimulator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

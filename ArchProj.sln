@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XC3", "XC3", "{0A1B9BAA-2023-4C02-8DA1-BDE3DDC7CC97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CacheSimulator", "XC3\CacheSimulator\CacheSimulator.csproj", "{C8652FEC-0EA2-40D8-A5C1-80AAFE614420}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8652FEC-0EA2-40D8-A5C1-80AAFE614420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8652FEC-0EA2-40D8-A5C1-80AAFE614420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8652FEC-0EA2-40D8-A5C1-80AAFE614420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8652FEC-0EA2-40D8-A5C1-80AAFE614420}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8652FEC-0EA2-40D8-A5C1-80AAFE614420} = {0A1B9BAA-2023-4C02-8DA1-BDE3DDC7CC97}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12CDDDEE-7A66-44BD-9ACB-5097CBDC3AC0}
+	EndGlobalSection
+EndGlobal
